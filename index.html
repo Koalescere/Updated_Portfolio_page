@@ -16,14 +16,19 @@
     <!-- Navbar Banner w/corp Logo -->
 
     <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
+        <!-- <div class="collapse" id="navbarToggleExternalContent">s
             <div class="bg-dark p-4">
                 <h5 class="text-white h4">Collapsed content</h5>
                 <span class="text-muted">Toggleable via the navbar brand.</span>
             </div>
-        </div>
+        </div> -->
         <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-            <img src="assets/images/transparent.png" width="120" height="120" class="d-inline-block align-top" alt="">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#logo">
+                    <img style="max-width:250px; max-height:250px; margin-top: -75px;" src="assets/images/transparent.png" class="d-inline-block align-top"
+                        alt="Responsive image">
+                </a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -35,29 +40,64 @@
 
 
 
-    <!-- Image w/Text-->
-  
-        <div class="card bg-light text-white">
-            <img src="assets/images/IMG_1223.JPG" class="img-fluid" alt="Responsive image">
-            <div class="card-img-overlay">
-                <h5 class="card-title">Koalescere's DCF</h5>
-                <p class="card-text">Reshaping the capital markets landscapde</p>
-                <p class="card-text">with the JeNeSaiQuoi platform</p>
-            </div>
+    <!-- Main Image w/Text-->
+
+    <div class="card bg-light text-white">
+        <img src="assets/images/IMG_1223.JPG" class="img-fluid" alt="Responsive image">
+        <button class="btn">EXPLORE NOW</button>
+        <div class="card-img-overlay">
+            <h1 class="card-title"></h1>
+            <h3 class="card-text">Reshaping the capital markets landscapde</h3>
+            <h5 class="card-text">~ the inexplicaple difference</h5>
         </div>
-   
+    </div>
+
+    <!-- 3 cards in a row -->
+    <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="assets/images/IMG_1568.JPG" alt="Responsive image">
+          <div class="card-body">
+            <h5 class="card-title">Infrastructure</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/images/IMG_2031.JPG" alt="Responsive image">
+          <div class="card-body">
+            <h5 class="card-title">Community</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/images/IMG_2704.JPG" alt="Responsive image">
+          <div class="card-body">
+            <h5 class="card-title">Eco-Environmental</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+
     <!-- Footer -->
     <div class="card text-center">
         <div class="card-footer">
             Follow us on
         </div>
         <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
+            <h5 class="card-title"></h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
         <div class="card-footer text-muted">
-            2 days ago
         </div>
     </div>
 

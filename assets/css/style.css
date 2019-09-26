@@ -52,7 +52,32 @@ cursor: pointer;
     font-size: 16px;
 } 
 
-#navBar:hover{
+#facebook{
+    height: 40px;
+    width: 40px;
+}
+#twitter{
+    height: 40px;
+    width: 40px;
+}
+#pintrest{
+    height: 40px;
+    width: 40px;
+}
+
+#payPal{
+    height: 40px;
+    width: 40px;
+}
+#whatsapp{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+#goButton:hover{
     background-color: white;
     border-color:#DDDDDD;
     color: black;
